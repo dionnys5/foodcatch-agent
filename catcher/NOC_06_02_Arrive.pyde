@@ -22,7 +22,8 @@ def setup():
 def draw():
     background(51)
     textSize(20)
-    text(catch, 10, 30);       
+    text('Comida coletada:', 2,30)
+    text(catch, 10, 60);       
     fill(1)
     local_food = food
     # mouse = PVector(mouseX, mouseY)
